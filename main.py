@@ -300,7 +300,6 @@ if __name__ == '__main__':
                         help='The name of the input csv file with sentiment as first column and text in the second column')
     args = parser.parse_args()
     main(args)
-
     #hyperparamter tuning
     # learning_rates = [0.01, 0.001, 0.0005, 0.0001]
     # hidden_size = [50, 100, 150]
