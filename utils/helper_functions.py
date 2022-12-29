@@ -85,7 +85,6 @@ def make_vectors(data, word2idx, label_enc=None):
         y = label_enc.transform(y)
     return X, y, label_enc
 
-#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 def readFile(fileName):
     """
